@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Name": "Élévation et échafauds"
+  },
+  {
+    "Id": 2,
+    "Name": "Énergie et CVC"
+  },
+  {
+    "Id": 3,
+    "Name": "Manutention"
+  },
+  {
+    "Id": 4,
+    "Name": "Outillage spécialisé"
+  },
+  {
+    "Id": 5,
+    "Name": "Paysagement"
+  },
+  {
+    "Id": 6,
+    "Name": "Terrassement"
+  },
+  {
+    "Id": 7,
+    "Name": "Travail des matériaux"
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "Name": "Chariot élévateur 10000lbs 163po",
+    "Description": "Ce chariot élévateur 10000lbs 163po propane Hyster est une plateforme ciseau qui peut atteindre une hauteur de 13 pieds et offrir une capacité de levage de 10000 livres. Très silencieuse et de conception étroite, de chariot hydraulique concu pour travailler à l'intérieur et à l'extérieur.",
+    "Price": 376.00,
+    "PriceWeek": 983.00,
+    "PriceMonth": 2643.00,
+    "PictureUrl": "images/products/chariotelevateur10000lbs.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Chariot élévateur 15000lbs 181po",
+    "Description": "Ce chariot élévateur 15000lbs 181po propane Doosan est une plateforme ciseau qui peut atteindre une hauteur de 15 pieds et offrir une capacité de levage de 15500 livres. Très silencieuse et de conception étroite, de chariot hydraulique concu pour travailler à l'intérieur et à l'extérieur.",
+    "Price": 551.00,
+    "PriceWeek": 1427.00,
+    "PriceMonth": 3913.00,
+    "PictureUrl": "images/products/chariotelevateur15000lbs181po.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Compressseur 4.2pcm électrique",
+    "Description": "Ce compresseur électrique peut fournir jusqu'à 4,2pcm. Idéal pour alimenter vos outils pneumatiques : pistolet à peinture, agrafeuse, marteaux de démolition et les sableuses. Fiables, autonomes et versatiles, ces compresseurs pourront s'adapter facilement à tous vos travaux de chantiers.",
+    "Price": 26.00,
+    "PriceWeek": 86.50,
+    "PriceMonth": 204.00,
+    "PictureUrl": "images/products/compresseur4.2pcm electrique.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Cloture 42po x 101 po",
+    "Description": "cloture métallique idéale pour garder une foule à distance",
+    "Price": 11.00,
+    "PriceWeek": 11.00,
+    "PriceMonth": 18.00,
+    "PictureUrl": "images/products/cloture42po x 101po.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 15
+  },
+  {
+    "Name": "Diable pour déménagement",
+    "Description": "Idéale pour déménagement résidentiel ou commerciale.",
+    "Price": 28.00,
+    "PriceWeek": 100.00,
+    "PriceMonth": 250.00,
+    "PictureUrl": "images/products/diable pour demenagement.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 16
+  },
+  {
+    "Name": "Brûleur à peinture 2200w",
+    "Description": "Alimentation électrique d'une puissance de 399BTU avec 18 ampères.",
+    "Price": 15.50,
+    "PriceWeek": 43.0,
+    "PriceMonth": 108.00,
+    "PictureUrl": "images/products/bruleur a peinture.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Cloueuse èa bardeau d'asphalte",
+    "Description": "Pneumatique de 4.9 lbs type de clou: en rouleau.",
+    "Price": 31.00,
+    "PriceWeek": 99.00,
+    "PriceMonth": 247.00,
+    "PictureUrl": "images/products/cloueuse à bardeau.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Taille haie à batterie",
+    "Description": "Alimenter  à batterie pesant 10,6 livres avec une autonomie de 3heures.",
+    "Price": 25.50,
+    "PriceWeek": 90.00,
+    "PriceMonth": 368.00,
+    "PictureUrl": "images/products/taillehaieabatterie.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 17
+  },
+  {
+    "Name": "Chargeur 1550 lbs",
+    "Description": "Que ce soit pour transporter de la terre, de la roche, des briques ou du sable, ce chargeur 1550 livres vos chantier de construction. Grâce à son moteur Sur roue très versatile saura certainement trouver sa place dans vos travaux de terrassement ou vos chantier de construction. Grâce à son moteur Diesel puissant et ses chenilles adhérentes, ce véhicule de haute performance peut travailler dans des terrains difficile d'accès et sur des sols ayant une faible portance. Utilisez-le sans crainte pour faire du remblaiement de tranchées, transporter des matériaux en vrac ou faire du pré-nivelage de votre terrain.",
+    "Price": 243.00,
+    "PriceWeek": 820.00,
+    "PriceMonth": 2376.00,
+    "PictureUrl": "images/products/chargeur 1550lbs.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 13
+  },
+  {
+    "Name": "Excavatrice 12511lbs 83po",
+    "Description": "Cette Excavatrice diesel est un modèle d'une puissance surprenante, adaptée aux travaux de petite et grande envergure. Que ce soit pour du gravier, de la pierre ou de la terres, vous pourrez creusez jusqu'à 12pieds sans problèmes. Facile à manœuvrer, elle est parfaitement adaptée aux opérations dans les espaces restreints.",
+    "Price": 387.00,
+    "PriceWeek": 1546.00,
+    "PriceMonth": 4116.00,
+    "PictureUrl": "images/products/excavatrice 12511lbs 83po.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 12
+  },
+  {
+    "Name": "Clé rotative 12po",
+    "Description": "Alimentation électrique avec mandrin 18po, voltage de 120 Volt.",
+    "Price": 15.50,
+    "PriceWeek": 43.50,
+    "PriceMonth": 108.00,
+    "PictureUrl": "images/products/clerotative.png",
+    "ProductTypeId": 7,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Foreuse à béton essence melange",
+    "Description": "Alimentation à l'essence mélangée d'un poids de 44lbs, peut faire un trou d'un maximum de 10 Po.",
+    "Price": 64.50,
+    "PriceWeek": 221.00,
+    "PriceMonth": 515.00,
+    "PictureUrl": "images/products/Foreuse à béton essence melange.png",
+    "ProductTypeId": 7,
+    "ProductBrandId": 5
+  }
+  
+    
+ ]
