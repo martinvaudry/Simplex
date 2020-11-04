@@ -1,0 +1,19 @@
+<header>
+    <span *ngIf="totalCount && totalCount > 0">
+        Vous voyez 
+        <strong>
+           {{(pageNumber-1) * pageSize+1}} - 
+           {{pageNumber*pageSize
+                > this.totalCount 
+                ? this.totalCount
+                :pageNumber*pageSize
+            }}
+        </strong> produits sur <strong>
+            {{this.totalCount}}
+        </strong> 
+        résultats
+    </span>
+    <span *ngIf="this.totalCount ===0">
+        Il y a <strong>0</strong> résultat pour ce filtre
+    </span>
+</header> 

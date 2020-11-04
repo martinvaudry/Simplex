@@ -8,9 +8,9 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('Message de Bienvenue', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('client app is running!');
+    expect(page.getTitleText()).toEqual('Lapplication client fonctionne!');
   });
 
   afterEach(async () => {
