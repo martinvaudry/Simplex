@@ -1,0 +1,18 @@
+<div class="container mt-5">
+   <h4>Erreur de serveur interne - l'actualisation de la page fera disparaître l'exception</h4>
+   <ng-container *ngIf="error">
+    <h5 class=text-danger>Erreurs: {{error.message}}</h5>
+    <p class="font-weight-bold">Note: Si vous voyez ceci, Angular n'est probablement pas responsable.</p>
+    <p>Que faire maintenant?</p>
+    <ol>
+        <li>Ouvrir Chrome dev tools</li>
+        <li>Inspectez l'onglet réseau </li>
+        <li>Regardeez les requêtes en erreur</li>
+        <li>Examinez cette requête URL - Assurez-vous qu'elle est correcte </li>
+        <li>Reproduisez l'erreur dans Postman - Si vous avez la même erreur dans Postman, L'erreur n'est donc pas Angular</li>
+    </ol>
+    <p>Voici la trace de la pile - c'est là que votre enquête devrait commencer!</p>
+    <code class="mt-5" style="background-color: whitesmoke;">{{error.details}}</code>
+   </ng-container>
+   
+</div>
