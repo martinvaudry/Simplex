@@ -1,23 +1,30 @@
-<div class="row" *ngIf="product">
-    <div class="col-6">
-        <img src="{{product.pictureUrl}}" alt="{{product.name}}" class="img-fluid w-100">
-    </div>
-    <div class="col-6">
-        <h3>{{product.name}}</h3>
-        <p><strong>{{product.price | currency}}</strong> par jour ou <strong>{{product.priceWeek | currency}}</strong> la semaine ou <strong>{{product.priceMonth | currency}}</strong> par mois</p>
-        <div class="d-flex justify-content-start align-items-cneter">
-            <i class="fa fa-minus-circle mr-2" style="cursor: pointer; font-size:2em;"></i>
-            <span class="font-weight-bold" style="font-size: 1.5em">2</span>
-            <i class="fa fa-plus-circle mx-2" style="cursor: pointer; font-size:2em;"></i>
-            <button class="btn btn-outline-danger btn-lg ml-4">Ajouter au panier</button>
+<div class="container mt-5">
+    <div class="row" *ngIf="product">
+        <div class="col-6">
+            <img src="{{product.pictureUrl}}" alt="{{product.name}}" class="img-fluid w-100">
         </div>
-    </div>
-
-    <div class="row mt-5">
-        <div class="col-12 ml-3">
-            <h4>Description</h4>
-            <p>{{product.description}}</p>
+        <div class="col-6">
+            <h3>{{product.name}}</h3>
+            <p style="font-size: 1.5em;"><strong>{{product.price | currency}}</strong> par jour</p>
+            <p style="font-size: 1.5em;">ou</p> 
+            <p style="font-size: 1.5em;"><strong>{{product.priceWeek | currency}}</strong> la semaine</p> 
+            <p style="font-size: 1.5em;">ou</p> 
+            <p style="font-size: 1.5em;"><strong>{{product.priceMonth | currency}}</strong> par mois</p>
+            <div class="d-flex justify-content-start align-items-cneter">
+                <i class="fa fa-minus-circle mr-2" style="cursor: pointer; font-size:2em;"></i>
+                <span class="font-weight-bold" style="font-size: 1.5em">2</span>
+                <i class="fa fa-plus-circle mx-2" style="cursor: pointer; font-size:2em;"></i>
+                <button class="btn btn-outline-danger btn-lg ml-4">Ajouter au panier</button>
+            </div>
+        </div>
+    
+        <div class="row mt-5">
+            <div class="col-12 ml-3">
+                <h4>Description</h4>
+                <p>{{product.description}}</p>
+            </div>
         </div>
     </div>
 </div>
+
 
