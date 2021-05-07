@@ -40,12 +40,6 @@ namespace Infrastructure.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("PriceMonth")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("PriceWeek")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<int>("ProductBrandId")
                         .HasColumnType("INTEGER");
 

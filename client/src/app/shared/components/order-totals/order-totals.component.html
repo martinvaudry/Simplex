@@ -1,0 +1,22 @@
+<div class="bg-light px-4 py-3 tex-uppercase font-weight-bold">
+    Sommaire de la commande
+</div>
+
+<div class="p-4">
+    <p class= "font-italic mb-4">Le coût de la livraison sera ajouté selon votre choix au moment du paiement</p>
+    <ul class="list-unstyled mb-4">*ngIf="(basketTotal$ | async)">
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Sous-total de la commande</strong>
+            <strong >{{(basketTotal$ | async).subtotal | currency}}</strong>
+        </li>
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Livraison et manutention</strong>
+            <strong >{{(basketTotal$ | async).shipping | currency}}</strong>
+        </li>
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Total</strong>
+            <strong >{{(basketTotal$ | async).total | currency}}</strong>
+        </li>
+    </ul>
+</div>
+
